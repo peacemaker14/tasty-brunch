@@ -10,5 +10,10 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest', 'react']}
+  babel: {presets: ['latest', 'react']},
+};
+
+exports.npm = {
+  styles: {tachyons: ['css/tachyons.min.css']},
+  // globals: {Tachyons: 'tachyons'}
 };
